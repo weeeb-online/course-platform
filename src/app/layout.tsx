@@ -1,7 +1,7 @@
 import { fontHeading, fontMono, fontSans } from "@/lib/fonts";
 import type { Metadata } from "next";
 import { cn } from "@/lib/utils";
-import "./globals.css";
+import "@/styles/globals.css";
 
 export const metadata: Metadata = {
   title: "Create Next App",
