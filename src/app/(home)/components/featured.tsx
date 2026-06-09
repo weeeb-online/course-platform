@@ -16,7 +16,7 @@ export function Featured() {
               <h2 className="font-display text-3xl md:text-4xl font-extrabold text-gray-900 mt-2">
                 Aprenda com os melhores
               </h2>
-              <div className="w-12 h-1 bg-[#F9DC5C] rounded-xs mt-4 mb-6"></div>
+              <div className="w-12 h-1 bg-primary rounded-xs mt-4 mb-6"></div>
             </div>
             <a
               href="#"
@@ -28,22 +28,20 @@ export function Featured() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white border-2 border-[#ECECEC] rounded-lg overflow-hidden transition-[transform_shadow] hover:-translate-y-1 hover:shadow-lg">
-              <div className="h-44 flex items-center justify-center text-6xl bg-[#F9DC5C]/20">
+              <div className="h-44 flex items-center justify-center text-6xl bg-primary/20">
                 💻
               </div>
               <div className="p-5">
                 <div className="flex items-center gap-2 mb-2">
                   <Pill className="bg-gray-100 text-gray-500">Programação</Pill>
-                  <Pill className="bg-[#F9DC5C] text-gray-900">
-                    Mais Vendido
-                  </Pill>
+                  <Pill className="bg-primary text-gray-900">Mais Vendido</Pill>
                 </div>
                 <h3 className="font-display font-bold text-gray-900 mb-1">
                   Python do Zero ao Pro
                 </h3>
                 <p className="text-gray-400 text-sm mb-3">por Rafael Torres</p>
                 <div className="flex items-center gap-1 mb-4">
-                  <span className="text-[#F9DC5C] text-sm">★★★★★</span>
+                  <span className="text-primary text-sm">★★★★★</span>
                   <span className="text-xs text-gray-400">(3.210)</span>
                 </div>
                 <div className="flex items-center justify-between">
@@ -81,7 +79,7 @@ export function Featured() {
                 </h3>
                 <p className="text-gray-400 text-sm mb-3">por Ana Lima</p>
                 <div className="flex items-center gap-1 mb-4">
-                  <span className="text-[#F9DC5C] text-sm">★★★★★</span>
+                  <span className="text-primary text-sm">★★★★★</span>
                   <span className="text-xs text-gray-400">(2.877)</span>
                 </div>
                 <div className="flex items-center justify-between">
@@ -118,7 +116,7 @@ export function Featured() {
                   por Marcos Oliveira
                 </p>
                 <div className="flex items-center gap-1 mb-4">
-                  <span className="text-[#F9DC5C] text-sm">★★★★☆</span>
+                  <span className="text-primary text-sm">★★★★☆</span>
                   <span className="text-xs text-gray-400">(1.540)</span>
                 </div>
                 <div className="flex items-center justify-between">
@@ -151,7 +149,7 @@ export function Featured() {
               <h2 className="font-display text-3xl md:text-4xl font-extrabold text-gray-900 mt-2">
                 Leitura que transforma
               </h2>
-              <div className="w-12 h-1 bg-[#F9DC5C] rounded-xs mt-4 mb-6"></div>
+              <div className="w-12 h-1 bg-primary rounded-xs mt-4 mb-6"></div>
             </div>
             <a
               href="#"
@@ -163,9 +161,9 @@ export function Featured() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="flex bg-white rounded-lg overflow-hidden border border-[#ECECEC] transition-[transform_shadow] hover:-translate-y-1 hover:shadow-lg">
-              <div className="w-2.5 shrink-0 bg-[#F9DC5C]"></div>
+              <div className="w-2.5 shrink-0 bg-primary"></div>
               <div className="p-5 flex flex-col flex-1">
-                <div className="w-12 h-16 rounded bg-[#F9DC5C]/20 flex items-center justify-center text-2xl mb-4">
+                <div className="w-12 h-16 rounded bg-primary/20 flex items-center justify-center text-2xl mb-4">
                   📘
                 </div>
                 <h3 className="font-display font-bold text-gray-900 text-sm mb-1">
@@ -173,7 +171,7 @@ export function Featured() {
                 </h3>
                 <p className="text-gray-400 text-xs mb-3">Carla Mendes</p>
                 <div className="flex items-center gap-1 mb-3">
-                  <span className="text-[#F9DC5C] text-xs">★★★★★</span>
+                  <span className="text-primary text-xs">★★★★★</span>
                 </div>
                 <div className="mt-auto flex items-center justify-between">
                   <span className="font-display font-bold text-gray-900">
@@ -199,7 +197,7 @@ export function Featured() {
                 </h3>
                 <p className="text-gray-400 text-xs mb-3">Bruno Costa</p>
                 <div className="flex items-center gap-1 mb-3">
-                  <span className="text-[#F9DC5C] text-xs">★★★★★</span>
+                  <span className="text-primary text-xs">★★★★★</span>
                 </div>
                 <div className="mt-auto flex items-center justify-between">
                   <span className="font-display font-bold text-gray-900">
@@ -225,7 +223,7 @@ export function Featured() {
                 </h3>
                 <p className="text-gray-400 text-xs mb-3">Juliana Faria</p>
                 <div className="flex items-center gap-1 mb-3">
-                  <span className="text-[#F9DC5C] text-xs">★★★★★</span>
+                  <span className="text-primary text-xs">★★★★★</span>
                 </div>
                 <div className="mt-auto flex items-center justify-between">
                   <span className="font-display font-bold text-gray-900">
@@ -251,7 +249,7 @@ export function Featured() {
                 </h3>
                 <p className="text-gray-400 text-xs mb-3">Pedro Alves</p>
                 <div className="flex items-center gap-1 mb-3">
-                  <span className="text-[#F9DC5C] text-xs">★★★★★</span>
+                  <span className="text-primary text-xs">★★★★★</span>
                 </div>
                 <div className="mt-auto flex items-center justify-between">
                   <span className="font-display font-bold text-gray-900">

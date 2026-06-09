@@ -5,7 +5,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-2 mb-3">
-              <span className="w-6 h-6 rounded bg-[#F9DC5C] flex items-center justify-center">
+              <span className="w-6 h-6 rounded bg-primary flex items-center justify-center">
                 <svg width="13" height="13" fill="none" viewBox="0 0 24 24">
                   <path
                     d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
@@ -17,7 +17,7 @@ export function Footer() {
                 </svg>
               </span>
               <span className="font-display font-bold text-white text-base">
-                Learn<span className="text-[#F9DC5C]">Hub</span>
+                Learn<span className="text-primary">Hub</span>
               </span>
             </div>
             <p className="text-sm leading-relaxed">

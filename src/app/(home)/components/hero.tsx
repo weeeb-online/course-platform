@@ -7,13 +7,13 @@ export function Hero() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="flex-1 max-w-xl">
-            <Badge className="bg-[#f9dc5c1f] text-[#F9DC5C]">
+            <Badge className="bg-primary/10 text-primary">
               🚀 Plataforma #1 do Brasil
             </Badge>
             <h1 className="font-heading text-white text-5xl lg:text-6xl font-extrabold leading-[1.1] mb-6">
               Aprenda.
               <br />
-              <span className="text-[#F9DC5C]">Evolua.</span>
+              <span className="text-primary">Evolua.</span>
               <br />
               Conquiste.
             </h1>
@@ -32,20 +32,20 @@ export function Hero() {
               </a>
             </div>
             <div className="grid grid-cols-3 gap-4">
-              <div className="border-s-4 border-[#F9DC5C] bg-[#ffffff0a] py-5 px-6 rounded-e-md">
-                <p className="text-[#F9DC5C] font-heading font-bold text-2xl">
+              <div className="border-s-4 border-primary bg-white/10 py-5 px-6 rounded-e-md">
+                <p className="text-primary font-heading font-bold text-2xl">
                   800+
                 </p>
                 <p className="text-white/50 text-xs mt-1">Cursos</p>
               </div>
-              <div className="border-s-4 border-[#F9DC5C] bg-[#ffffff0a] py-5 px-6 rounded-e-md">
-                <p className="text-[#F9DC5C] font-heading font-bold text-2xl">
+              <div className="border-s-4 border-primary bg-white/10 py-5 px-6 rounded-e-md">
+                <p className="text-primary font-heading font-bold text-2xl">
                   120k
                 </p>
                 <p className="text-white/50 text-xs mt-1">Alunos</p>
               </div>
-              <div className="border-s-4 border-[#F9DC5C] bg-[#ffffff0a] py-5 px-6 rounded-e-md">
-                <p className="text-[#F9DC5C] font-heading font-bold text-2xl">
+              <div className="border-s-4 border-primary bg-white/10 py-5 px-6 rounded-e-md">
+                <p className="text-primary font-heading font-bold text-2xl">
                   4.9 ★
                 </p>
                 <p className="text-white/50 text-xs mt-1">Avaliação</p>
@@ -55,7 +55,7 @@ export function Hero() {
           <div className="flex-1 flex justify-center items-center">
             <div className="relative animate-(--animate-float)">
               <div className="bg-white rounded-2xl shadow-2xl p-5 w-72">
-                <div className="bg-[#F9DC5C] rounded-xl h-36 flex items-center justify-center text-5xl mb-4">
+                <div className="bg-primary rounded-xl h-36 flex items-center justify-center text-5xl mb-4">
                   📈
                 </div>
                 <p className="text-xs text-gray-400 font-medium uppercase tracking-wider mb-1">
@@ -65,7 +65,7 @@ export function Hero() {
                   Marketing Digital Avançado
                 </h3>
                 <div className="flex items-center gap-2 mb-3">
-                  <span className="text-[#F9DC5C] text-sm">★★★★★</span>
+                  <span className="text-primary text-sm">★★★★★</span>
                   <span className="text-xs text-gray-400">(1.842)</span>
                 </div>
                 <div className="flex items-center justify-between">
@@ -85,7 +85,7 @@ export function Hero() {
                 <p className="text-xs text-gray-500 mb-0.5">Progresso</p>
                 <div className="flex items-center gap-2">
                   <div className="w-24 h-2 bg-gray-100 rounded-full">
-                    <div className="w-3/5 h-2 bg-[#F9DC5C] rounded-full"></div>
+                    <div className="w-3/5 h-2 bg-primary rounded-full"></div>
                   </div>
                   <span className="text-xs font-bold text-gray-700">63%</span>
                 </div>
