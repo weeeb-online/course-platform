@@ -10,7 +10,7 @@ export function Hero() {
             <Badge className="bg-[#f9dc5c1f] text-[#F9DC5C]">
               🚀 Plataforma #1 do Brasil
             </Badge>
-            <h1 className="font-display text-white text-5xl lg:text-6xl font-extrabold leading-[1.1] mb-6">
+            <h1 className="font-heading text-white text-5xl lg:text-6xl font-extrabold leading-[1.1] mb-6">
               Aprenda.
               <br />
               <span className="text-[#F9DC5C]">Evolua.</span>
@@ -33,20 +33,20 @@ export function Hero() {
             </div>
             <div className="grid grid-cols-3 gap-4">
               <div className="border-s-4 border-[#F9DC5C] bg-[#ffffff0a] py-5 px-6 rounded-e-md">
-                <p className="text-[#F9DC5C] font-display font-bold text-2xl">
+                <p className="text-[#F9DC5C] font-heading font-bold text-2xl">
                   800+
                 </p>
                 <p className="text-white/50 text-xs mt-1">Cursos</p>
               </div>
               <div className="border-s-4 border-[#F9DC5C] bg-[#ffffff0a] py-5 px-6 rounded-e-md">
-                <p className="text-[#F9DC5C] font-display font-bold text-2xl">
+                <p className="text-[#F9DC5C] font-heading font-bold text-2xl">
                   120k
                 </p>
                 <p className="text-white/50 text-xs mt-1">Alunos</p>
               </div>
               <div className="border-s-4 border-[#F9DC5C] bg-[#ffffff0a] py-5 px-6 rounded-e-md">
-                <p className="text-[#F9DC5C] font-display font-bold text-2xl">
-                  4.9★
+                <p className="text-[#F9DC5C] font-heading font-bold text-2xl">
+                  4.9 ★
                 </p>
                 <p className="text-white/50 text-xs mt-1">Avaliação</p>
               </div>
@@ -61,7 +61,7 @@ export function Hero() {
                 <p className="text-xs text-gray-400 font-medium uppercase tracking-wider mb-1">
                   Curso em destaque
                 </p>
-                <h3 className="font-display font-bold text-gray-900 text-base mb-1">
+                <h3 className="font-bold text-gray-900 text-base mb-1">
                   Marketing Digital Avançado
                 </h3>
                 <div className="flex items-center gap-2 mb-3">
@@ -73,9 +73,7 @@ export function Hero() {
                     <span className="text-xs text-gray-400 line-through">
                       R$349
                     </span>
-                    <span className="font-display font-bold text-gray-900 ml-1">
-                      R$147
-                    </span>
+                    <span className="font-bold text-gray-900 ml-1">R$147</span>
                   </div>
                   <Pill className="bg-[#ED254E] text-white">-58%</Pill>
                 </div>
